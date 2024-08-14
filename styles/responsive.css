@@ -150,4 +150,15 @@
     .trainer-img-6{
         display: block;
     }
+    .footer-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-2 {
+        flex-direction: column;
+    }
+    .footer-1 {
+        width: 80%;
+    }
+    
 }
