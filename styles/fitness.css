@@ -7,7 +7,7 @@
     font-weight: 400;
     font-style: normal;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 * {
@@ -53,18 +53,19 @@
 
 .fitness {
     color: rgb(230, 83, 60);
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 36px;
     font-weight: 800;
 }
 
 .fitness-nav-list {
     width: 50%;
+    padding-top: 20px;
 }
 
 .nav-content {
     width: 80%;
-    margin: 10px auto;
+    margin: 0px auto;
     justify-content: space-between;
 }
 
@@ -107,7 +108,7 @@
 /* banner-style-start */
 .banner-section {
     width: 80%;
-    margin: 30px auto;
+    margin: 0px auto;
 }
 
 .banner-text-content {
@@ -214,7 +215,6 @@
 
 /* habits section start */
 main {
-    border: 1px solid green;
     margin: 0px auto;
     background-color: black;
 }
@@ -258,7 +258,6 @@ main {
 /* run section start */
 .run-section {
     width: 80%;
-    border: 1px solid green;
     margin: 30px auto;
     display: flex;
     border-radius: 18px;
@@ -291,7 +290,6 @@ main {
 /* Trainings and Exercises section start */
 .trainings-section {
     width: 80%;
-    border: 1px solid red;
     margin: 30px auto;
 
 }
@@ -440,7 +438,7 @@ select {
 
 .trainer-container {
     width: 80%;
-    margin: 30px auto;
+    margin: 0px auto;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
 }
@@ -519,16 +517,11 @@ footer {
 
 .footer-1 {
     width: 50%;
-    border: 1px solid red;
 }
 
 .footer-2 {
     display: flex;
     justify-content: space-between;
-}
-
-.footer-3 {
-    border: 1px solid blueviolet;
 }
 
 .fitness-2 {
