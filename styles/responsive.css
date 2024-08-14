@@ -128,4 +128,26 @@
     .input-field{
         width: 320px;
     }
+    .trainer-img-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .trainer-img-1{
+        display: none;
+    }
+    .trainer-img-2{
+        display: block;
+    }
+    .trainer-img-5{
+        display: block;
+    }
+    .trainer-img-3{
+        display: block;
+    }
+    .trainer-img-4{
+        display: none;
+    }
+    .trainer-img-6{
+        display: block;
+    }
 }
