@@ -1,0 +1,131 @@
+@media screen and (max-width:990px) { 
+    .nav-content {
+        width: 100%;
+    }
+    .fitness-content {
+        width: 30%;
+    }
+    .fitness-nav-list{
+        width: 70%;
+    }
+    .banner-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-text-content {
+        width: 100%;
+        text-align: center;
+    }
+    .habits-img-content{
+        display: grid;
+        flex-direction: column;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+@media screen and (max-width:576px) { 
+    .nav-content {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .fitness-content {
+        width: 50%;
+    }
+    .fitness-nav-list{
+        width: 50%;
+    }
+    .nav-hamburger-menu{
+        display: block;
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+    .nav-ul-item{
+        display: none;
+    }
+    .nav-content{
+        padding: 0px 10px;
+        
+    }
+    .banner-section{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .banner-img-content {
+        padding-left: 16px;
+        
+    }
+    .banner-img-content img{
+        width: 100%;
+
+    }
+    .red-ball i{
+        display: block;
+    }
+    
+    .icon{
+        display: block;
+        padding-left: 20px;
+        padding-top: 15px;
+        color: white;
+    }
+    .habits-img-content{
+        grid-template-columns: 1fr;
+       
+    }
+    .run-section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .run-text-content {
+        width: 100%;
+        /* padding: 32px; */
+    }
+
+    .btn-width {
+        width: 100%;
+    }
+    
+    .run-img-content {
+        width: 100%;
+    }
+    .trainings-images-1{
+        grid-column: 1/span 6;
+    }
+    .trainings-images-2{
+        grid-column: 7/span 6;
+    }
+    .trainings-images-3{
+        display: none;
+    }
+    .trainings-images-4{
+        grid-column: 1/span 5;
+    }
+    .trainings-images-5{
+        grid-column: 6/span 7;
+    }
+    .trainings-images-6{
+        display: none;
+    }
+    .bmi-parts{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi-chart{
+        width: 100%;
+    }
+    .bmi-input{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .form-container input,select{
+        width: 150px;
+        height: 40px;
+    
+    }
+    .input-field{
+        width: 320px;
+    }
+}
